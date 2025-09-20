@@ -1,4 +1,4 @@
-##  Este é meu primeiro Repositório.
+##  Este é meu primeiro PORTFÓLIO.
 
 # Status: ainda não está pronto adicionei no GitHub para treinar fundamentos Git.
 
