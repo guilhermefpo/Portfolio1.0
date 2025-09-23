@@ -157,10 +157,6 @@ a:hover {
     gap: 20px;
 }
 
-.projeto > div {
-   border-radius: 1px;
-   box-shadow: 0 0 0 1px blue;
-}
 
 .projeto > h2 {
     color: transparent;
@@ -170,5 +166,14 @@ a:hover {
 
 
 .sobre {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sobre > h2 {
+    color: transparent;
+    background: linear-gradient(90deg, white, aqua);
+    background-clip: text;
 }
