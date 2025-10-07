@@ -86,6 +86,15 @@ body{
     background-clip: text;
 }
 
+
+.skills-grid {
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: nowrap;
+     width: 100%;
+}
+
+
 .skill-card {
     width: 100px;
     height: 100px;
@@ -100,13 +109,8 @@ body{
 }
 
 .skill-card:hover {
-   transform: rotateY('-5px');
-}
-
-.skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+   transform: scale(1.05);
+   transition: 0.3s ease;
 }
 
 .skill-card > i {
@@ -175,6 +179,8 @@ a:hover {
 
  .projeto {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -183,11 +189,17 @@ a:hover {
 
 
 .card {
+    display: flex;
     background-color: transparent;
     border: none;
     box-shadow: none;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top {
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .card:hover {
