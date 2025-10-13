@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Partículas */
+
 #particles-js {
   position: fixed;
   width: 100%;
@@ -22,7 +22,7 @@ body {
   pointer-events: none;
 }
 
-/* Cabeçalho */
+
 .titulo {
   color: transparent;
   background: linear-gradient(90deg, white, aqua);
@@ -44,7 +44,7 @@ body {
   transform: scale(1.05);
 }
 
-/* Títulos */
+
 h2 {
   color: transparent;
   background: linear-gradient(90deg, white, aqua);
@@ -52,7 +52,7 @@ h2 {
   background-clip: text;
 }
 
-/* Seção Sobre */
+
 .sobre-text {
   max-width: 800px;
   margin: 0 auto;
@@ -60,7 +60,7 @@ h2 {
   font-size: 1.1rem;
 }
 
-/* Skills */
+
 .skills-grid {
   display: flex;
   justify-content: center;
@@ -95,7 +95,7 @@ h2 {
   font-weight: bold;
 }
 
-/* Cards de Projeto */
+
 .card {
   background: rgba(56, 189, 248, 0.05);
   border: 1px solid rgba(56, 189, 248, 0.2);
@@ -135,7 +135,7 @@ h2 {
 
 }
 
-/* Rodapé */
+
 footer a {
   color: white;
   margin: 0 10px;
