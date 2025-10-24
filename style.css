@@ -59,14 +59,36 @@ h2 {
   font-size: 1.1rem;
 }
 
-.sofit-skills > h2 {
-   color: transparent;
-   background: linear-gradient(90deg, white, aqua);
-   -webkit-background-clip: text;
-   background-clip: text;
-
-
+.sofit-skills {
+  text-align: center;
+  padding: 50px 20px;
 }
+
+.sofit-skills h2 {
+  color: transparent;
+  background: linear-gradient(90deg, white, aqua);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-bottom: 30px;
+}
+
+.sofit-skills .skills-sofit {
+  display: inline-block;
+  width: 250px; /* Largura uniforme */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #38bdf8;
+  border-radius: 10px;
+  background: rgba(56, 189, 248, 0.05);
+  color: #38bdf8;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.sofit-skills .skills-sofit:hover {
+  transform: scale(1.05);
+}
+
 
 .skills-grid {
   display: flex;
