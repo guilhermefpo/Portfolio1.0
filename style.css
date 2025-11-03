@@ -180,6 +180,12 @@ h2 {
   transition: all 0.3s ease-in-out;
 }
 
+.certificado > img {
+    text-align: center;
+    width: 100px;
+    height: 80px;
+}
+
 .certificado:hover {
   transform: scale(1.08);
   border-color: rgba(56, 189, 248, 0.05);
